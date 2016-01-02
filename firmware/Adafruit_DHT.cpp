@@ -59,7 +59,11 @@ float DHT::getTempKelvin() {
 	return convertCtoK(readTemperature());
 }
 
-float DHT::getHeatIndex() {
+float DHT::getHeatIndexFarenheit() {
+	return computeHeatIndex(convertCtoF(readTemperature()), readHumidity());
+}
+
+float DHT::getHeatIndexCelcius() {	
 	return convertFtoC(computeHeatIndex(convertCtoF(readTemperature()), readHumidity()));
 }
 

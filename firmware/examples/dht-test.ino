@@ -44,8 +44,8 @@ void loop() {
 	}
 
 // Compute heat index
-// Must send in temp in Fahrenheit!
-	float hi = dht.getHeatIndex();
+		
+	float hi = dht.getHeatIndexFarenheit();	 //	or getHeatIndexCelcius()
 	float dp = dht.getDewPoint();
 	float k = dht.getTempKelvin();
 
