@@ -1,7 +1,7 @@
 {
-    "name": "Adafruit_DHT",
-    "version": "0.0.2",
-    "author": "RussGrue <rstockhammer@hotmail.com>",
+    "name": "Adafruit_DHT_Fixed",
+    "version": "0.0.3",
+    "author": "BrandonEstockCTI <bestock@conferencetech.com>",
     "license": "MIT License",
-    "description": "Spark Core DHT Library based on Adafruit Arduino DHT Library"
+    "description": "Spark Core DHT Library based on Adafruit Arduino DHT Library. Fixed Heat Index"
 }
